@@ -1,6 +1,5 @@
-hello-openfin-spectron-example
-===========================
-Included in this repository are simple example tests for the 'Hello OpenFin' app using the [Electron Spectron](https://github.com/electron/spectron). 
+ElectronApp-Automation-Nightwatch
+==================================
 
 ## Prerequisites for Hello OpenFin demo app
 
@@ -12,23 +11,15 @@ Included in this repository are simple example tests for the 'Hello OpenFin' app
  ```bash
  npm install
  ```
+
+ This is the reference code, how we can automate Electron App using nightwatch framework.
  
-4. Globally install Mocha test framework
- ```bash
- npm install -g mocha
- ```
-
-5. Install Hello OpenFin app from https://openfin.co/demos/
-
-
-## Usage
-
-The following steps will help you run tests:
-  
- ```bash
- mocha test/hello-openfin.js
- ```
-
-## Getting help
-
-Please contact support@openfin.co
+ Go to root directory and write command:-
+ node nightwatch.js
+ 
+ It will automatically run your js file which is placed under test directory of the project.
+ Also before execution you should have electron app and update nightwatch.json to add the path of your exe.
+ 
+ There are some folders which are empty now, in which we will add more js files as per need.
+ 
+ Inside test/sample.js, you can update it by adding new selectors as per your exe and it will run.

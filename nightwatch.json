@@ -6,7 +6,7 @@
   "page_objects_path" : "",
   "globals_path" : "",
   "browserName": "chrome",
- 
+  
   "selenium" : {
     "start_process" : true,
     "live_output" : true,
@@ -21,7 +21,7 @@
     }
   },
  
-  "test_settings" : {
+   "test_settings" : {
     "default" : {
       "browserName": "chrome",
       "launch_url" : "http://localhost",
@@ -37,14 +37,6 @@
         "javascriptEnabled": true,
         "acceptSslCerts": true,
         "chromeOptions" : {"binary": "D:\\win-unpacked\\MLS.exe"}
-      }
-    },
- 
-    "chrome" : {
-      "desiredCapabilities": {
-        "browserName": "chrome",
-        "javascriptEnabled": true,
-        "acceptSslCerts": true
       }
     }
   }
