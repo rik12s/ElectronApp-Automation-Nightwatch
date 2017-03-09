@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "ElectronApp-Automation-Nightwatch",
+  "main": "nightwatch.js",
+  "author": {
+    "name": "Rakesh",
+    "email": "Rakesh.sharma1990@gmail.com"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "electron-chromedriver": "^1.6.0",
+    "nightwatch": "^0.9.12",
+    "nightwatch-html-reporter": "^2.0.0",
+    "webdriverio": "^4.6.2"
+  }
+}

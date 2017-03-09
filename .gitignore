@@ -1,0 +1,8 @@
+# Dependency directory
+node_modules
+
+# Debug log
+selenium-debug.log
+
+# etc
+.git
