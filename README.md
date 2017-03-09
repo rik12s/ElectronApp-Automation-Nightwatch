@@ -1,8 +1,6 @@
 ElectronApp-Automation-Nightwatch
 ==================================
 
-## Prerequisites for Hello OpenFin demo app
-
 1. Install Node.js
 
 2. Download/clone this repository and `cd` into it
