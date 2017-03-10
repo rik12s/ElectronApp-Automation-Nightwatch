@@ -21,3 +21,14 @@ ElectronApp-Automation-Nightwatch
  There are some folders which are empty now, in which we will add more js files as per need.
  
  Inside test/sample.js, you can update it by adding new selectors as per your exe and it will run.
+ 
+ 
+ ****************************************************************************
+ Also, if you want working example of electron app do the following:-
+ 
+ 1. Install Brave Browser from internet and install in your system.
+ 2. After installation, Copy the exe path of it which would be like C:\Users\(Username)\AppData\Local\brave\Brave.exe
+ 3. Copy this and Update your nightwatch.json with brave executable path.
+ 4. Update sample.js and perform any action with suitable selector. It will Work.
+ 
+ CHEERS.
